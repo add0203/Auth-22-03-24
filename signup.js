@@ -9,7 +9,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Perform client-side validation if needed
 
-    fetch("http://localhost:3002/user/register", {
+    // fetch("http://localhost:3002/user/register", {
+    
+    fetch("auth-22-03-2024-back.vercel.app/user/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
