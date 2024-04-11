@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // fetch("http://localhost:3002/user/register", {
     
-    fetch("auth-22-03-2024-back.vercel.app/user/register", {
+    fetch("https://auth-22-03-2024-back.onrender.com/user/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
