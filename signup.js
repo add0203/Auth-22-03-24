@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
           throw new Error("Signup failed");
         }
         console.log("loged in");
-        window.location.href = "/client/login.html"; // Redirect to login page after successful signup
+        window.location.href = "login.html"; // Redirect to login page after successful signup
       })
       .catch((error) => {
         errorMessage.textContent = error.message;
