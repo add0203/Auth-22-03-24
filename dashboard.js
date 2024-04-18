@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const uploadedImagesDiv = document.getElementById("uploadedImages");
 
   // Fetch the username of the logged-in user
-  fetch("/user", {
+  fetch("https://auth-22-03-2024-back.onrender.com/user", {
     method: "GET",
     headers: {
       "Content-Type": "application/json",
