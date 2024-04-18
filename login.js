@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (!response.ok) {
           throw new Error("Login failed");
         }
-        window.location.href = "/client/dashboard.html"; // Redirect to dashboard page after successful login
+        window.location.href = "dashboard.html"; // Redirect to dashboard page after successful login
       })
       .catch((error) => {
         errorMessage.textContent = error.message;
