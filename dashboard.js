@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
     event.preventDefault();
     const formData = new FormData(imageUploadForm);
 
-    fetch("/upload", {
+    fetch("https://auth-22-03-2024-back.onrender.com/post/upload", {
       method: "POST",
       body: formData,
     })
