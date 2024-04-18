@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Perform client-side validation if needed
 
-    fetch("http://localhost:3002/user/sign-in", {
+    fetch("https://auth-22-03-2024-back.onrender.com/user/sign-in", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
